@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/rvanzyl-godaddy/cypress-rvz#readme",
   "devDependencies": {
-    "cypress": "^13.2.0"
+    "@testla/testla-cli": "file:../Git/pxe-testla-cli/pxe-testla-cli",
+    "cypress": "13.2.0",
+    "cypress-multi-reporters": "^1.6.0",
+    "mocha-junit-reporter": "^2.0.0",
+    "mochawesome": "^7.1.3"
   }
 }

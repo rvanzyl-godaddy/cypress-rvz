@@ -1,0 +1,21 @@
+{
+  "projectId": 12531,                    
+  "verbose": true,                      
+  "wait": true,                         
+  "writeToFile": true,                  
+  "failingExitCode": true,              
+  "enableTests": true,                  
+  "testReportPath": "test-report.xml",  
+  "paths": [                           
+    "cypress/fixtures/",
+    "cypress/support/",
+    "reporter.json"
+  ],
+  "cypressTestDir": "cypress/e2e",    
+  "nodeModules": "node_modules",        
+  "browser": "chrome",                  
+  "launchType": "FARGATE",              
+  "env": [                             
+    { "TASK_DEF_ARN": "arn:aws:ecs:us-west-2:112558326602:task-definition/testla-tw-3-chrome-107-node-16"}
+  ]
+}

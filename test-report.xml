@@ -1,0 +1,1 @@
+<testsuites name="Cypress Tests" time="146" tests="1" failures="0"><testsuite name="cypress/e2e/visit.cy.js" tests="1" package="cypress/e2e/visit_cy_js" time="0.345" failures="0" skipped="0"><testcase name="Cy Visit test visit method" time="0.345" status="passed" classname="cypress/e2e/visit_cy_js" /></testsuite></testsuites>

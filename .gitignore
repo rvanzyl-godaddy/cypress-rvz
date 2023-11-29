@@ -1,0 +1,25 @@
+# Ignore compiled files and directories
+node_modules/
+dist/
+build/
+test-results/
+.pip/
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.production
+.npmrc
+pip.conf
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore editor-specific configuration
+.vscode/
+.idea/
